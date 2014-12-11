@@ -12,18 +12,19 @@ public:
 	int maxDepth(TreeNode *root) {
 		if (root == NULL) return 0;
 		int height = 0;
-		return DFS(root, height);
+		return maxDFS(root, height);
 	}
 
-	int DFS(TreeNode *root, int depth){
+	int maxDFS(TreeNode *root, int depth){
 		++depth;
-		int maxDepth = depth, leftDepth = 0, rightDepth = 0;
-		if (root->left != NULL) leftDepth = DFS(root->left, depth);
-		if (root->right != NULL) rightDepth = DFS(root->right, depth);
+		int leftDepth = 0, rightDepth = 0;
+		if (root->left == NULL && root->right == NULL) return depth;
+
+		if (root->left != NULL) leftDepth = maxDFS(root->left, depth);
+		if (root->right != NULL) rightDepth = maxDFS(root->right, depth);
+
 		int tempDepth = leftDepth;
 		if (leftDepth < rightDepth) tempDepth = rightDepth;
-		if (tempDepth > maxDepth) maxDepth = tempDepth;
-
-		return maxDepth;
+		return tempDepth;
 	}
 };
