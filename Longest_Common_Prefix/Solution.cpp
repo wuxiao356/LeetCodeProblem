@@ -1,0 +1,22 @@
+class Solution {
+public:
+	string longestCommonPrefix(vector<string> &strs) {
+		string LCP;
+		if (strs.size() == 0) return LCP;
+		bool hasNext = true;
+		int j = 0;
+		while (hasNext){
+			if (strs[0].size() <= j) return LCP;
+			char commonChar = strs[0][j];
+			int numOfCommon = 1;
+			for (int i = 1; i < strs.size(); ++i){
+				if (strs[i].size() <= j) { hasNext = false; break; }
+				else if (strs[i][j] != commonChar) { hasNext = false; break; }
+				else ++numOfCommon;
+			}
+			if (numOfCommon == strs.size()) { LCP += commonChar; ++j; }
+		}
+
+		return LCP;
+	}
+};
