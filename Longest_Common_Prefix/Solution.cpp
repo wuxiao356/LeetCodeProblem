@@ -1,3 +1,8 @@
+/**
+ * Created by Yu(Khitan) Wu on 12/11/2014
+ * Copyright (C) 2014 Yu(Khitna) Wu All rights reserved.
+ * Email: wuxiao356@gmial.com
+ */
 class Solution {
 public:
 	string longestCommonPrefix(vector<string> &strs) {
