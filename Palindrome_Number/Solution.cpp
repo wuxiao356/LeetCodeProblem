@@ -1,6 +1,6 @@
 /**
  * Created by Yu(Khitan) Wu on 12/11/2014
- * Copyright (C) 2014 Yu(Khitna) Wu All rights reserved.
+ * Copyright (C) 2014 Yu(Khitan) Wu All rights reserved.
  * Email: wuxiao356@gmial.com
  */
 class Solution {
