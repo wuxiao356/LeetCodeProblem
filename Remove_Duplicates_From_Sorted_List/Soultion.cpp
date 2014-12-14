@@ -1,7 +1,12 @@
 /**
  * Created by Yu(Khitan) Wu on 12/11/2014
+<<<<<<< HEAD
  * Copyright (C) 2014 Yu(Khitan) Wu All rights reserved.
  * Email: wuxiao356@gmial.com
+=======
+ * Copyright (C) 2014 Yu(Khitna) Wu All rights reserved.
+ * Email: wuxiao356@gmail.com
+>>>>>>> origin/master
  */
 /**
 * Definition for singly-linked list.
