@@ -1,10 +1,14 @@
 /**
  * Created by Yu(Khitan) Wu on 12/11/2014
 <<<<<<< HEAD
+<<<<<<< HEAD
  * Copyright (C) 2014 Yu(Khitan) Wu All rights reserved.
  * Email: wuxiao356@gmial.com
 =======
  * Copyright (C) 2014 Yu(Khitna) Wu All rights reserved.
+=======
+ * Copyright (C) 2014 Yu(Khitan) Wu All rights reserved.
+>>>>>>> dd7c06fc2d6814ba7786bfa66c586c5e6382e3f0
  * Email: wuxiao356@gmail.com
 >>>>>>> origin/master
  */
