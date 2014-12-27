@@ -1,5 +1,5 @@
 /**
-* Created by Yu(Khitan) Wu on 12/26/2014
+* Created by Yu(Khitan) Wu on 12/26	12/2014
 * Copyright (C) 2014 Yu(Khitan) Wu All rights reserved.
 * Email: wuxiao356@gmail.com
 */
@@ -20,14 +20,9 @@ public:
 	}
 	bool DFS(TreeNode *root, int subSum, int sum){
 		subSum += root->val;
-		if (subSum == sum){
-			if (root->left == NULL &&  root->right == NULL) return true;
-			else{
-				bool result = false;
-				if (root->left != NULL) result = DFS(root->left, subSum, sum);
-				if (!result && root->right != NULL) result = DFS(root->right, subSum, sum);
-				return result;
-			}
+		if (root->left == NULL && root->right == NULL){
+			if (subSum == sum) return true;
+			else return false;
 		}
 		else{
 			bool result = false;
