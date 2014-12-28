@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Numeral Computing
 =================
 Do not ignore overflow!!!!!!
@@ -11,3 +12,21 @@ Vector
 Differece between default constructor and fill constructor. 
 vector<int> c; // c is empty；
 vector<int> c(3); // c is size of 3, with all elements being 0
+=======
+Numeral Computing
+=================
++ Do not ignore overflow!!!!!! Overflow occurs when the sum of two negative number is larger than one of them or the sum of two positive number is smaller than one of them.
+
++ Range of 32-bit int: -2^31 ~ 2^31-1, which are INT_MIN and INT_MAX;
+
+
+String
+======
++ There is several constructors, only one of which can use not const char as parameter. The others have to be provided with const char.
+
+Vector
+======
++ Differece between default constructor and fill constructor. 
+vector<int> c; // c is empty；
+vector<int> c(3); // c is size of 3, with all elements being 0
+>>>>>>> origin/master
