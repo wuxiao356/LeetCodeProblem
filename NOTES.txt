@@ -2,7 +2,7 @@ Numeral Computing
 =================
 + Do not ignore overflow!!!!!! Overflow occurs when the sum of two negative number is larger than one of them or the sum of two positive number is smaller than one of them.
 
-+ Range of 32-bit int: -2^31 ~ 2^31-1
++ Range of 32-bit int: -2^31 ~ 2^31-1, which are INT_MIN and INT_MAX;
 
 
 String
