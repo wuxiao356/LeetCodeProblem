@@ -1,0 +1,13 @@
+Numeral Computing
+=================
+Do not ignore overflow!!!!!!
+
+String
+======
+There is several constructors, only one of which can use not const char as parameter. The others have to be provided with const char.
+
+Vector
+======
+Differece between default constructor and fill constructor. 
+vector<int> c; // c is empty；
+vector<int> c(3); // c is size of 3, with all elements being 0
