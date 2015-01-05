@@ -23,6 +23,9 @@ Numeral Computing
 String
 ======
 + There is several constructors, only one of which can use not const char as parameter. The others have to be provided with const char.
++ Implement strStr(): 
+    Brute Force: Check the lengths of haystack and needle first, which can ignore the scenario when length of needle is                        greater than that of haystack very quickly. And the lengths also can be used to reduce the number of                          iterations. 
+    KMP:
 
 Vector
 ======
